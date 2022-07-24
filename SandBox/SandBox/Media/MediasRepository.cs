@@ -14,7 +14,9 @@ namespace SandBox.Media
 
         public Artist GetArtist(int id)
         {
+#pragma warning disable CS8603 // Possible null reference return.
             return context.Artists.Where(x => x.ArtistId == id).FirstOrDefault();
+#pragma warning restore CS8603 // Possible null reference return.
         }
 
         public IEnumerable<Album> GetAllAlbums()
