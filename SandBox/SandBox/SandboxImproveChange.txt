@@ -1,0 +1,4 @@
+Function Reaqd needs to be modified to add string input, input will be empty string unless a string is passed as a cmd line parameter
+sting PathToFile, only gets default settings if there is no string passed in and passed in string !stringIsNullOrEmpty
+
+Call ri.startRead in ProcessessReadLines()

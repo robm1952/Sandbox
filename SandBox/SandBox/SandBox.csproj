@@ -8,8 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CSharptree\**" />
     <Compile Remove="JustHangingAround\**" />
+    <EmbeddedResource Remove="CSharptree\**" />
     <EmbeddedResource Remove="JustHangingAround\**" />
+    <None Remove="CSharptree\**" />
     <None Remove="JustHangingAround\**" />
   </ItemGroup>
 
