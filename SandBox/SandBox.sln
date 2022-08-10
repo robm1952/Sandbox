@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32714.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox", "SandBox\SandBox.csproj", "{ECF14C98-783C-4347-B005-1480EF03D4C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandBox", "SandBox\SandBox.csproj", "{ECF14C98-783C-4347-B005-1480EF03D4C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxRazorPages", "SandboxRazorPages\SandboxRazorPages.csproj", "{98E2F022-D0F2-4576-9770-E6B9421B7A86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLoader", "DataLoader\DataLoader.csproj", "{9E35DA75-FD72-4BCC-9F98-2C671859E13D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{ECF14C98-783C-4347-B005-1480EF03D4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF14C98-783C-4347-B005-1480EF03D4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF14C98-783C-4347-B005-1480EF03D4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E2F022-D0F2-4576-9770-E6B9421B7A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E2F022-D0F2-4576-9770-E6B9421B7A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E2F022-D0F2-4576-9770-E6B9421B7A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E2F022-D0F2-4576-9770-E6B9421B7A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E35DA75-FD72-4BCC-9F98-2C671859E13D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E35DA75-FD72-4BCC-9F98-2C671859E13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E35DA75-FD72-4BCC-9F98-2C671859E13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E35DA75-FD72-4BCC-9F98-2C671859E13D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

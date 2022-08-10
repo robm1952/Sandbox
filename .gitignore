@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+/SandBox/BlazorApp/BlazorApp/bin/Debug/net6.0
+/SandBox/BlazorApp/BlazorApp/obj
+/SandBox/SandboxRazorPages/bin/Debug/net6.0
+/SandBox/SandboxRazorPages/obj

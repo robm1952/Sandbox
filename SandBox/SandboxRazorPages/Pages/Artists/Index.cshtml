@@ -1,0 +1,26 @@
+﻿@page
+@model SandboxRazorPages.Pages.Artists.IndexModel
+@{
+    ViewData["Title"] = "Artists";
+}
+<style>.col-lg-3, .col-lg-9{
+    border:none 1px black;
+}</style>
+<div class="row">
+    <div class="col-lg-3 text-center"><h1>Artists</h1></div>
+    <div class="col-lg-9" >&nbsp;</div>
+</div>"
+
+
+<div class="row">
+    <div class="col-md-2 fw-bold text-end">@Html.DisplayName($"Artist Id")</div>
+    <div class="col-md-10 fw-bold">@Html.DisplayName("Artist Name")</div>
+</div>
+@foreach(var item in Model.Artist){
+    <div class="row">
+        <a href="/Artists/Details/@item.ArtistId.ToString()">@Html.DisplayFor(modelItem => item.ArtistId)</a>
+        
+        @*<div class="col-md-2 text-end">@Html.DisplayFor(modelItem => item.ArtistId)</div>*@
+        <div class="col-md-10">@Html.DisplayFor(modelItem => item.ArtistName)</div>
+    </div>
+}

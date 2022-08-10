@@ -5,14 +5,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Runtime.Remoting.Contexts;
 
 namespace SandBox.Managers
 {
-    internal class ArtistsManager
+    public class ArtistsManager
     {
         private MediasRepository _ArtistMediasRepository;
         
-        public ArtistsManager() { 
+        public ArtistsManager() {
+            MediaContext mediaContext = new MediaContext();
             _ArtistMediasRepository = new MediasRepository();
         }
         
