@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandboxRazorPages", "Sandbo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLoader", "DataLoader\DataLoader.csproj", "{9E35DA75-FD72-4BCC-9F98-2C671859E13D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp\BlazorApp.csproj", "{1A791A74-698F-476E-B6B9-E159853F1BC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9E35DA75-FD72-4BCC-9F98-2C671859E13D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E35DA75-FD72-4BCC-9F98-2C671859E13D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E35DA75-FD72-4BCC-9F98-2C671859E13D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A791A74-698F-476E-B6B9-E159853F1BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A791A74-698F-476E-B6B9-E159853F1BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A791A74-698F-476E-B6B9-E159853F1BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A791A74-698F-476E-B6B9-E159853F1BC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
