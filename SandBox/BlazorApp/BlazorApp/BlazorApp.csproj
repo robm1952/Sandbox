@@ -17,16 +17,6 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.7" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\..\SandBox\SandBox.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="SandBox">
-      <HintPath>..\..\SandBox\bin\Debug\net6.0\SandBox.dll</HintPath>
-    </Reference>
-  </ItemGroup>
   
 
 </Project>
